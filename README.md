@@ -90,3 +90,27 @@ To use the **Virtual-Assistant with Python** project, you'll need to set up cred
 4. Download the JSON key file for your service account.
 
 5. Store the JSON key file securely on the `/auth` dir from the project. It should be named "credentials.json".
+
+## User Manual
+
+This user manual provides a quick guide to the functionalities of the virtual assistant.
+
+### Functionality: Calendar
+
+- **CREATE**: Creates an event in your calendar.
+- **SHOW**: Displays a list of your next 5 events in your calendar.
+
+### Functionality: Correo / Email
+
+- **CREATE**: Composes and sends an email.
+- **SHOW**: Displays a list of your last 5 unread emails.
+
+### Functionality: AI CHAT
+
+- **BYE**: Exits the AI chat conversation.
+
+### Functionality: CONTROL PC
+
+- **VOLUME/SOUND UP/DOWN/MUTE**: Adjust the computer's audio settings.
+- **SCREEN**: Takes an screenshot.
+- **OPEN/CLOSE [app]**: Opens or closes a particular application.
