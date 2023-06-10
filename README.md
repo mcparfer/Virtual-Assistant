@@ -6,6 +6,8 @@
 - A question and answer channel powered by Artificial Intelligence (AI).
 - Local machine control options.
 
+![Example Image](assets/screenshot.jpg)
+
 Link with executable: https://drive.google.com/drive/folders/1v6gu1lvAbh5OVVIZ56rSRK1CCT35cQjD?usp=sharing.
 
 This document provides instructions on how to set up and install the project in a virtual environment using the `requirements.txt` file.
@@ -20,8 +22,11 @@ The project consists of the following three modules:
 
 3. `ui_functions.py`: This module houses the core functionalities of the virtual assistant, including calendar and email services, AI-driven question and answer capabilities, and local machine control options.
 
-4. `/assets` dir: This directory contains the necessary fonts, sounds, and icons used by the app.
+The project also includes two directories:
 
+1. `/assets`: This directory contains the necessary fonts, sounds, and icons used by the app.
+
+2. `/auth`: This directory is used for storing authentication-related files. Place your `credentials.json` file in this directory, and the application will create the `token.json` file here during the authentication process.
 
 ## Prerequisites
 
@@ -59,7 +64,18 @@ To install and set up the project in a virtual environment, follow the steps bel
    pip install -r requirements.txt
    ```
    
-This command will read the requirements.txt file and install all the necessary Python packages in your virtual environment.
+   This command will read the requirements.txt file and install all the necessary Python packages in your virtual environment.
+
+   Note: You may need to install Playwright manually. To download and install the necessary browser driver use:
+
+   ```bash
+   playwright install
+   ```
+
+Now all that's left is run the main.py file using the Python interpreter:
+   ```bash
+   python main.py
+   ```
 
 ## Google Cloud Platform Credentials
 
@@ -73,4 +89,4 @@ To use the **Virtual-Assistant with Python** project, you'll need to set up cred
 
 4. Download the JSON key file for your service account.
 
-5. Store the JSON key file securely on the auth dir from the project. It should be named "credentials.json".
+5. Store the JSON key file securely on the `/auth` dir from the project. It should be named "credentials.json".
