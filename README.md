@@ -1,6 +1,6 @@
 # Virtual-Assistant with Python
 
-**Virtual-Assistant with Python** is a Python-based Virtual Assistant for Windows that aims to enhance user productivity by providing centralized access to various services. The assistant offers the following functionalities:
+This project is a Python-based Virtual Assistant for Windows that aims to enhance user productivity by providing centralized access to various services. The assistant offers the following functionalities:
 
 - Calendar and email services through integration with the available APIs on the Google Cloud Platform (GCP).
 - A question and answer channel powered by Artificial Intelligence (AI).
